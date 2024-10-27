@@ -1,0 +1,222 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4b1b2;
+    padding: 10px 20px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.left-header img.logo {
+    margin-right: 10px;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.left-header a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    position: relative;
+    width: 400px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Khoảng trống phải để chứa biểu tượng */
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search-bar .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 8px;
+    font-size: 20px;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.user img.user-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Main content layout */
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-left {
+    width: 65%;
+    padding-right: 20px;
+}
+
+.course-left h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.course-left p.intro-text {
+    color: red;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.learning-content p.red-text {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.course-content {
+    margin-bottom: 20px;
+}
+
+.content-block {
+    background-color: #e0e0e0;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-left, .details-right {
+    width: 48%;
+}
+
+.details-left h3, .details-right h3 {
+    margin-bottom: 10px;
+}
+
+.details-left p, .details-right p {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Right section */
+.course-right {
+    width: 30%;
+    text-align: center;
+}
+
+.course-image {
+    background-color: #8568cf;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.course-image p {
+    margin-top: 10px;
+}
+
+.learn-btn {
+    background-color: white;
+    color: #8568cf;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.learn-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.register-btn {
+    background-color: #8568cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #6a4db8;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-about, .footer-follow {
+    margin-right: 20px;
+}
+
+.footer-follow a i {
+    padding: 12px;
+    font-size: 24px;
+    color: #ccc;
+}
+
+.footer-follow a i:hover {
+    color: red;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    cursor: default;
+}

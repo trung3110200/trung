@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px;
+    background-color: white;
+    border-bottom: 2px solid #d19b83;
+}
+
+.logo img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.search-bar {
+    position: relative;
+    width: 400px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Khoảng trống phải để chứa biểu tượng */
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search-bar .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .login-btn, 
+.auth-buttons .signup-btn {
+    padding: 8px 12px;
+    background-color: #d19b83;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.signup-btn {
+    background-color: #c9b2d6;
+}
+
+nav {
+    background-color: #d19b83;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 30px;
+    display: inline-block;
+}
+
+nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+} 
+
+section {
+    padding: 40px;
+}
+
+.html-section {
+    position: relative; /* Giữ vị trí của section-container tương đối để khối con có thể dùng position:absolute */
+    height: 400px;
+    background-color: #9e70b1; /* Màu nền giống ảnh */
+    padding: 20px;
+}
+
+.css-section {
+    background-color: #f4e1c9;
+    height: 400px;
+    padding: 20px;
+    position: relative;
+}
+
+section h1 {
+    font-size: 36px;
+
+}
+
+section p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.learn-btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.code-example {
+    position: absolute; /* Đặt vị trí tuyệt đối để di chuyển */
+    top: 50px; /* Căn từ trên xuống */
+    right: 50px; /* Căn từ phải sang */
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Giới hạn chiều rộng khối */
+}
+
+.code2-example {
+    position: absolute; /* Đặt vị trí tuyệt đối để di chuyển */
+    top: 50px; /* Căn từ trên xuống */
+    right: 50px; /* Căn từ phải sang */
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Giới hạn chiều rộng khối */
+}
+
+pre {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.try-btn {
+    background-color: #665a87;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

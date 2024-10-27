@@ -1,0 +1,236 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4b1b2;
+    padding: 10px 20px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.left-header img.logo {
+    margin-right: 10px;
+    height: 40px;
+}
+
+.left-header a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-btn {
+    background-color: #8568cf;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #6a4db8;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img.user-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Main content layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-section {
+    width: 65%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.lesson-image {
+    background-color: #8568cf;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.lesson-info h3 {
+    margin-bottom: 5px;
+}
+
+.question-section {
+    margin-top: 20px;
+}
+
+.question-box {
+    background-color: #e0e0e0;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.notes {
+    margin-top: 15px;
+}
+
+.note-btn {
+    background-color: #8568cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-btn:hover {
+    background-color: #6a4db8;
+}
+
+/* Right section (lesson progress) */
+.right-section {
+    width: 30%;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-progress h3 {
+    margin-bottom: 15px;
+}
+
+.lesson-progress ul {
+    list-style: none;
+}
+
+.lesson-progress li {
+    background-color: #d9d9d9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.check-btn {
+    background-color: #8568cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.check-btn:hover {
+    background-color: #6a4db8;
+}
+
+/* Navigation buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.prev-btn, .next-btn {
+    background-color: #8568cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #6a4db8;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-about, .footer-follow {
+    margin-right: 20px;
+}
+
+.footer-follow img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+

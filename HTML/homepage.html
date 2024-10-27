@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../CSS/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="homepage()">
+            <img src="../img/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <span class="search-icon">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </span>
+        </div>
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign up</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Khóa học</a></li>
+            <li><a href="#">Lộ trình học tập</a></li>
+            <li><a href="#">Chia sẻ kiến thức</a></li>
+        </ul>
+    </nav>
+
+    <section class="html-section">
+        <h1>HTML</h1>
+        <p>The language for building web pages</p>
+        <button class="learn-btn">Learn HTML</button>
+        <div class="code-example">
+            <h3>HTML Example:</h3>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;HTML Tutorial&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;This is a heading&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+            <button class="try-btn">Try it Yourself</button>
+        </div>
+    </section>
+
+    <section class="css-section">
+        <h1>CSS</h1>
+        <p>The language for styling web pages</p>
+        <button class="learn-btn">Learn CSS</button>
+        <div class="code2-example">
+            <h3>CSS Example:</h3>
+            <pre>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+            </pre>
+            <button class="try-btn">Try it Yourself</button>
+        </div>
+    </section>
+</body>
+
+<script src="../js/reloading.js"></script>
+</html>
